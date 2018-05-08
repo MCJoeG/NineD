@@ -5,8 +5,8 @@
   overflow: hidden;
 }
 .top image{
-  /* width: 100%;
-  height: 750rpx;   */
+  width: 100%;
+  height: 750rpx;   
 }
 .main {
   width:100%;
