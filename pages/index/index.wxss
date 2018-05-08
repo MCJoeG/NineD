@@ -1,0 +1,72 @@
+/**index.wxss**/
+.top {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.top image{
+  /* width: 100%;
+  height: 750rpx;   */
+}
+.main {
+  width:100%;
+  height:457rpx;
+  background:#eee;
+  z-index: 4;
+}
+.select {
+  width: 215px; 
+  height: 55px;
+  background-color: #fad;
+  border-radius: 24px;
+  border:1px solid #fff;
+  margin:0 auto;
+  margin-top:85rpx;
+}
+.select text {
+  text-align: center;
+  display: block;
+  line-height: 55px;
+}
+.sel {
+  margin-top:10px;
+  background-color: #edf;
+}
+.th {
+  width: 100%;
+  border:3px solid #fff;
+  position:absolute;
+  overflow: hidden;
+}
+.th1 {
+  top: 250rpx;
+  overflow: hidden;
+}
+.th2 {
+top:0;
+left:250rpx;
+height:740rpx;
+border:3px solid #fff;
+position:absolute;
+overflow: hidden;
+
+}
+.th3 {
+  top: 500rpx;
+}
+.th4 {
+  top:0;
+  left:500rpx;
+  height:740rpx;
+  border:3px solid #fff;
+  position:absolute;
+  overflow: hidden;
+}
+/*第二次*/
+.img {
+  width: 100%;
+  height: 750rpx;
+  overflow: hidden;
+  background: #fff;
+}
+

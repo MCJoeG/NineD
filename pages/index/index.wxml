@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+ <view class="top">
+  <view class="img" catchtouchstart="touchstartCallback"  catchtouchmove="touchmoveCallback" catchtouchend="touchendCallback">
+    <image src='{{avatarUrl}}' style="transform:translate({{stv.offsetX}}px, {{stv.offsetY}}px) scale({{stv.scale}});" mode="widthFix" ></image>
+  </view>
+    <view class='th th1'></view>
+    <view class='th2'></view>
+    <view class='th th3'></view>
+    <view class='th4'></view>
+ </view>
+ <view class='main'>
+  <view class='select' bindtap="select">
+    <text>选择一张图片</text>
+  </view>
+  <view class='select sel' bindtap="Save">
+    <text>保存图片</text>
+  </view>
+ </view>
+</view>
